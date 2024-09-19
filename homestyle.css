@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header CSS */
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/wave.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 5px 3px rgba(7, 7, 7, 0.233);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    transition: box-shadow 0.1s ease-in-out 0s;
+}
+
+/* Hover navbar Design */
+.navbar a:hover {
+    color: rgba(136, 107, 77, 0.7);
+}
+
+.navbar a::before, ::after {
+    box-sizing: inherit;
+}
+
+/* Header Section CSS */
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  55px 8%;
+}
+
+.section-container {
+    font-family: Nunito;
+    font-style: normal;
+}
+
+.heading-title {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.section-container p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+/* Email & Button Design */
+input {
+    padding: 15px;
+    width: 260.66px;
+    height: 22px;
+    border-radius: 5px;
+    border-color: rgba(7, 7, 7, 0.233);
+    font-size: 18px;
+}
+
+button {
+    font-size: 20px;
+    font-family: Nunito;
+    padding: 12px 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(214, 29, 35);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+input, button {
+    margin: 5px;
+}
+
+
+/* Section Design */
+.section-container2{
+    font-family: Nunito;
+    font-style: normal;
+    padding:  55px 8%;
+}
+
+.section-content .heading-title {
+    font-size: 46px;
+    line-height: 48px;
+    font-family: Nunito;
+    padding: 80px 0 0 ;
+}
+
+.section-content p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.section-content a {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(214, 29, 35);
+}
+
+.section-content i {
+    font-size:20px;
+}
+ 
+/* Section Images Design */
+.section-container2 .section-box {
+    border-radius: 5px;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.section-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.section-box img {
+    width: 300px;
+    height: 300px;
+
+}
+
+.section-box h3 {
+    font-size: 25px;
+}
+
+/* Section text Design & Box */
+.section-container3 {
+    font-family: Nunito;
+    padding:  50px 8%;
+}
+
+.section-container3 .heading-title {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.section-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-text .section-box {
+    background-color: rgb(214, 29, 35);
+    color: rgb(255, 255, 255);
+    margin: 25px;
+    border-radius: 5px;
+    padding: 50px 3%;
+}
+
+.section-box-black {
+    background-color: rgb(181, 177, 177);
+    border-radius: 5px;
+    padding: 61.5px 3%;
+}
+.section-container3 h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.section-box h3 {
+    margin-bottom: 15px;
+}
+
+/* Section text Design & Box */
+.section-container4 {
+    font-family: Nunito;
+    padding:  50px 8%;
+}
+
+.section-container4 .heading-title {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.section-text-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section-box p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.section-container4 .section-text-2 .section-box {
+    color: rgb(4, 4, 4);
+    margin: 25px;
+    border: 1px solid rgb(4, 4, 4);
+    padding: 50px;
+}
+
+/* Section text Design & Box */
+.section-logo {
+    padding:  50px 8%;
+}
+
+.section-logo .col {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo img  {
+    margin: 0 22px;
+}
+
+/* Section Container 5 Design */
+.section-container5 {
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-container5 p {
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+
+/* Footer Container 6 Design */
+.footer-container {
+    padding:  50px 8%;
+    font-family: Nunito;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.about-us p{
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+
+.about-us i {
+    font-size: 35px;
+    margin: 10px 10px;
+    background-color: rgb(212, 210, 210);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.row ul li {
+    list-style: square;
+}
+
+
+
+
+
+
+
+
+
+
+

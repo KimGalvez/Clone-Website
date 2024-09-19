@@ -1,0 +1,176 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/images/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    width: 150px;
+    display: block;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: .5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.search {
+    height: 35px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+    background: rgb(223, 166, 22);
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.search:hover input {
+    width: 200px;
+}
+
+.search input {
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+
+.search a, i {
+    font-size: 18px;
+    color: black;
+}
+
+/* Section Content */
+.section-content {
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-container {
+    width: 500px;
+}
+
+.heading-title {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 15px;
+}
+
+.section-content p {
+    padding-bottom: 20px;
+}
+
+span{
+    color: rgb(223, 166, 22);
+}
+
+.ctn {
+    background-color: rgb(223, 166, 22);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: black;
+}
+
+/* Section Content Form */
+
+.form {
+    width: 390px;
+    height: 510px;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+
+.form .heading-title {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 15px;
+}
+
+
+.form p {
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    display: block;
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 5px;
+    background: transparent;
+}
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color:  rgb(223, 166, 22);
+    
+}
+
+.btn a{
+    color: rgba(23, 22, 22, 0.877);
+    font-size: 25px;
+    font-family: tahoma;
+    font-weight: 800;
+}
+
+.form a span {
+    color: rgb(222, 206, 24);
+}
+
+.lik{
+    margin-top: 5px;
+}
+
+.icon i{
+    padding: 5px;
+    margin: 0 10px;
+    font-size: 35px;
+    background-color: rgb(223, 166, 22);
+    border-radius: 10px;
+    
+}
+
